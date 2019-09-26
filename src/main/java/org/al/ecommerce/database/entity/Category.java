@@ -42,4 +42,13 @@ public class Category {
     public void setCutSlug(String cutSlug) {
         this.cutSlug = cutSlug;
     }
+
+    @Override
+    public String toString() {
+        return "Category{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", cutSlug='" + cutSlug + '\'' +
+                '}';
+    }
 }

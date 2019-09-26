@@ -61,7 +61,7 @@ public class UserService {
 
 
     @POST
-    @Path(ServicePaths.ECCOMERCE_USER_SIGNUP)
+    @Path(ServicePaths.ECOMMERCE_USER_SIGNUP)
     @Produces(MediaType.APPLICATION_JSON)
     public static String registerUser(@FormParam("REQUEST_DATA") String requestData)
     {
