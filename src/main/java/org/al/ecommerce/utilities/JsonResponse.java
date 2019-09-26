@@ -29,4 +29,8 @@ public class JsonResponse {
         this.responseData = responseData;
     }
 
+    public void setReponseMessageAndCode(String responseMessage, String responseCode){
+        this.responseCode = responseCode;
+        this.responseMessage = responseMessage;
+    }
 }
